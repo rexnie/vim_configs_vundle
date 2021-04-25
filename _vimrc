@@ -3,6 +3,8 @@ let g:cfg_expandtab = 0                     " 1: to expand        0: not to
 let g:cfg_useAirLine = 1                    " 1: 使用 vim_airline 插件     0: 禁用
 let g:cfg_chpwd = 0                         " 1: change pwd to file of current buffer  0: not change
 
+let g:snipMate = { 'snippet_version' : 1 }
+
 " -----------------------------------------------------------------------------
 "
 " 我的 VIM/GVIM 配置文件，适用Windows和Linux环境
@@ -215,7 +217,7 @@ nnoremap <Leader>sv    <ESC>:source $MYVIMRC<CR>
 "
 " 用于更方便的管理vim插件，具体用法参考 :h vundle 帮助
 " 安装方法为在终端输入如下命令
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle.vim
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " 如果想在 windows 安装就必需先安装 "git for window"，可查阅网上资料
 
 " set the runtime path to include Vundle and initialize
