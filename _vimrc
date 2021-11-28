@@ -1434,7 +1434,7 @@ endif
 " {{{
 set mousehide                               "键盘输入时是否隐藏鼠标
 " set mouse=a                                 "允许鼠标操作
-set mouse=n                                 "不允许鼠标操作
+" set mouse=n                                 "不允许鼠标操作
 set bsdir=current                           "设定文件浏览器目录为当前目录
 set writebackup                             "保存文件前建立备份，保存成功后删除该备份
 set nobackup                                "设置无备份文件
