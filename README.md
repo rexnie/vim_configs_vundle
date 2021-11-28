@@ -22,7 +22,7 @@
 # 源码安装编辑器 vim
 1. 在 ubuntu 20.04 源码安装 vim
   ```
-sudo apt get install python-dev python3-dev ruby-dev liblua5.2-dev liblua5.3-dev libx11-dev libgtk-3-dev libgtk2.0-dev ncurses-dev lua5.2
+sudo apt-get install python-dev python3-dev ruby-dev liblua5.2-dev liblua5.3-dev libx11-dev libgtk-3-dev libgtk2.0-dev ncurses-dev lua5.2
 git clone https://github.com/vim/vim.git
 cd vim/
 git checkout v8.0.0000
